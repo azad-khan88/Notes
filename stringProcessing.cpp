@@ -15,8 +15,13 @@ int main(){
 
     //replace github with Github
     str.replace(str.find("interesting"),11,"Amazon AWS");
+    reverse(str.begin(),str.end());
+    string num="12345678";
+    rotate(num.begin(),num.begin()+1,num.end());
+    cout<<num;
+
     cout<<str;
 
 
 
-}
+    }
